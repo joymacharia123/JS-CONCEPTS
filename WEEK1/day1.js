@@ -8,6 +8,8 @@
  * you can reassign a variable
  * var name = 'Dan'
  * name = 'John'
+ * 
+ * It is globally scoped
  */
 
 /**
