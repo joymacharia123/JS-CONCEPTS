@@ -55,7 +55,17 @@
 //Cost of goods sold
 //Profit
 
+//parseInt
+/**
+ * if you insert a number like 20.5 the out put will be 20 because the function coverts a decimal to an integer aka whole number
+ */
+//parseFloat
+/**
+ * 
+ */
 
-let length = prompt('Length of rectangle?')
-console.log(length)
+let length = prompt ('length of rectangle?')
+let width = prompt ('Width of rectangle?')
 
+console.log (typeof(length))
+console.log (typeof(width))
