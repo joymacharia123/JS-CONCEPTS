@@ -25,19 +25,23 @@ let mixture = ['Dan', 1, undefined, null]
 
 //UNSHIFT
 // names.unshift('Walobwa')
-// console.log(names)
+// console.log(name)
 
 //SHIFT
-// 
+// names.shift('Walobwa')
+// console.log(name)
 
-//factorial
-
-let number = 10
-function fibonacci(n) [
-    if (n <= 1) [
-        return n
+let fib = function(number) [
+    if (number = 1) [
+        return 0;
+    ]
+    
+    if (number = 2) [
+        return 1;
     ]
 
-    return fibonacci
+    return fib(number-1) + fib(number-2);
 
-]
+];
+
+console.log(fib(6))
