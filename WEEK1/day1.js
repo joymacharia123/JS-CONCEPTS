@@ -68,6 +68,4 @@
 
 let length = prompt ('length of rectangle?')
 let width = prompt ('Width of rectangle?')
-
-console.log (typeof(length))
-console.log (typeof(width))
+let area = (parseInta9)

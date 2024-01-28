@@ -11,7 +11,7 @@
 /** 
  * @STRICTLYEQUAL -> ===
  * @AND -> && {Both conditions must be met for the code to run as true or false}
- * @OR -> // {Either one of the conditions should be true or false }
+ * @OR -> || {Either one of the conditions should be true or false }
  * @GREATERTHAN -> >
  * @LESSTHAN -> <
  * @GREATERTHANOREQUAL -> =>
@@ -61,6 +61,21 @@
 // }
 
 // FOR LOOPS
-for (let i = 0; i<10; i++) {
-    console.log (i)
+// for (let i = 0; i<10; i++) {
+//     console.log (i)
+// }
+
+
+let n = parseInt(prompt('Enter an integer'))
+
+let sum = 0 //PREFIX SUM
+
+for (let i = 1; i<n; i++){
+    if (i % 3 === 0 || i % 5 === 0) {
+        console.log(i)
+        sum = sum + i
+    }
 }
+
+console.log(sum)
+
