@@ -1,4 +1,18 @@
+function groupBy(objects, Car) {
+    let groupedByColor = {};
 
+    for (let i = 0; i < objects.length; i++) {
+        let Color = objects[i][Car];
+
+        if (groupedByColor[Color]) {
+            groupedByColor[Color].push(objects[i]);
+        } else {
+            groupedByColor[Color] = [objects[i]];
+        }
+    }
+
+    return groupedByColor;
+}
 
 let cardata = [
     { Car: 'Mercedes', Color: 'Grey' },
