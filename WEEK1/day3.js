@@ -31,17 +31,17 @@ let mixture = ['Dan', 1, undefined, null]
 // names.shift('Walobwa')
 // console.log(name)
 
-let fib = function(number) [
-    if (number = 1) [
-        return 0;
-    ]
+// let fib = function(number) [
+//     if (number = 1) [
+//         return 0;
+//     ]
     
-    if (number = 2) [
-        return 1;
-    ]
+//     if (number = 2) [
+//         return 1;
+//     ]
 
-    return fib(number-1) + fib(number-2);
+//     return fib(number-1) + fib(number-2);
 
-];
+// ];
 
-console.log(fib(6))
+// console.log(fib(6))

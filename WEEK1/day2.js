@@ -40,11 +40,27 @@
 // }
 
 // FUNCTION
-// function consolehello() {  //function declaration
+// function consolehello() {  //function declaration   (Parameters)
 //     console.log('Hello')   //function defination/body
 // }
 
-// consolehello()   //function call/invoation
+// consolehello()   //function call/invoation   (Arguments)
+
+//function expression
+// const add = function (a, b) {
+//     return a+b
+// }
+
+// console.log(add(10, 20))
+
+//Arrow functions
+// const add2 = (a, b)=>{
+//     return a+b
+// }
+// console.log(add2(10, 20))
+
+// setTimeout - sincrony
+// setInterval
 
 // let name = 'doza'
 
@@ -60,22 +76,27 @@
 //         break;
 // }
 
-// FOR LOOPS
+// FOR LOOPS  (used in lists)
 // for (let i = 0; i<10; i++) {
 //     console.log (i)
 // }
 
+// const name = 'Dan'
+// const school = 'Zindua School'
+// const sentence = name + ' ' + school
+// console.log(sentence)
 
-let n = parseInt(prompt('Enter an integer'))
 
-let sum = 0 //PREFIX SUM
+// let n = parseInt(prompt('Enter an integer'))
 
-for (let i = 1; i<n; i++){
-    if (i % 3 === 0 || i % 5 === 0) {
-        console.log(i)
-        sum = sum + i
-    }
-}
+// let sum = 0 //PREFIX SUM
 
-console.log(sum)
+// for (let i = 1; i<n; i++){
+//     if (i % 3 === 0 || i % 5 === 0) {
+//         console.log(i)
+//         sum = sum + i
+//     }
+// }
+
+// console.log(sum)
 
