@@ -1,9 +1,9 @@
-function toggle() {
-    let hide = document.querySelector('.hide')
-    if(hide.style.display === 'none'){
-        hide.style.display = 'block'
-    } else{
-        hide.style.display ='none'
+const parentContainer = document.querySelector('.parent-container')
+
+parentContainer.addEventListener('click', (e)=>{
+    if(e.target.tagName === 'SPAN') {
+        let subContainer = e.target.nextElementSibling
+        // 
+        subContainer.classList.toggle('hidden')
     }
-    
-};
+})
