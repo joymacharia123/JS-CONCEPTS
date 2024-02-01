@@ -1,3 +1,17 @@
-.hidden{
-    display: none;
+.parent{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+}
+
+.child{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.innerChild{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
 }
