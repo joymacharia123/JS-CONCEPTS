@@ -86,6 +86,7 @@
 // const sentence = name + ' ' + school
 // console.log(sentence)
 
+// let n = parseInt(prompt('Enter an integer'))
 
 // let n = parseInt(prompt('Enter an integer'))
 
