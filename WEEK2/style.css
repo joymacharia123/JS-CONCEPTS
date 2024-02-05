@@ -1,32 +1,32 @@
 body {
-    font-family: 'Arial', sans-serif;
     text-align: center;
     justify-content: center;
-    background-color:red;
+    background-color:black;
 }
 
 #game-container {
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
-    background-color:red;
+    background-color:black;
 }
 
 button {
     padding: 10px;
     margin: 5px;
     font-size: 16px;
+    background-color: red;
 }
 
 #result {
     font-size: 18px;
     margin-top: 20px;
     font-weight: bold;
-    color:red;
+    color:white;
 }
 
 #score {
     margin-top: 20px;
     font-size: 16px;
-    color:red;
+    color:white;
 }
