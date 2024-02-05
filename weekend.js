@@ -13,7 +13,7 @@ function playRound(player1Choice) {
 
 function determineWinner(player1Choice, player2Choice) {
     if (player1Choice === player2Choice) {
-        return 'It\'s a tie!';
+        return 'Tie';
     } else if (
         (player1Choice === 'rock' && player2Choice === 'scissors') ||
         (player1Choice === 'paper' && player2Choice === 'rock') ||

@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     text-align: center;
     justify-content: center;
-    background-color: #f0f0f0;
+    background-color:red;
 }
 
 #game-container {
@@ -10,8 +10,6 @@ body {
     margin: 50px auto;
     padding: 20px;
     background-color:red;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 button {
