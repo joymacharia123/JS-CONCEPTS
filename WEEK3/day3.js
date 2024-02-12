@@ -1,16 +1,16 @@
 // const form = document.querySelector('.search-form')
 // const input = document.querySelector('.search-input')
 // const container = document.querySelector('.container')
-// let userInput = 'Gurdian of the Galaxy Vol. 2'
+// let userInput = ''
 
-form.addEventListener('submit',(e)=>{
-    container.innerHTML = ''
-    e.preventDefault()
-    userInput = input.value
-    if(userInput !==''){
-        fetchdata()
-    }
-})
+// form.addEventListener('submit',(e)=>{
+//     container.innerHTML = ''
+//     e.preventDefault()
+//     userInput = input.value
+//     if(userInput !==''){
+//         fetchdata()
+//     }
+// })
 
 
 const API_KEY ='231628bb'

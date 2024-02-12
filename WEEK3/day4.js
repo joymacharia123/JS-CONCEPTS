@@ -24,7 +24,7 @@ const fetchdata = async()=>{
             const card = document.createElement('div')
             card.classList.add('card')
         card.innerHTML = `
-        <h1>${food.name}</h1>
+        <h1>${food.id}.${food.name}</h1>
         <div>Calories:${food.Calories}</div>
         <div>Protein:${food.Protein}</div>
         <div>Fat:${food.Protein}</div>
